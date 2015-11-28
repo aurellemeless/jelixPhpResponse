@@ -2,9 +2,13 @@
 PHP response for Jelix frameworks, it allow you to use php code inside templates with the ".php" file extension.
 Usage
 --------------
-First put the phpResponse class in your app responses directory '/responses/' like that '/responses/phpResponse.class.php'
+First put the phpResponse class in your app responses directory '/responses/' 
 
-Second declare the response in your app config file ' /var/config/mainconfig.ini.php' or in the entrypoint configuration file 'config/index/config.ini.php'
+like that '/responses/phpResponse.class.php'
+
+Second declare the response in your app config file '/var/config/mainconfig.ini.php'
+
+or in the entrypoint configuration file 'config/index/config.ini.php'
 
 For Example :
 
