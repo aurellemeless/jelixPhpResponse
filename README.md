@@ -35,3 +35,6 @@ class defaultCtrl extends jController {
     
 }
 ```
+Changelog
+--------------
+0.1 put in github
