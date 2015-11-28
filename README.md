@@ -3,7 +3,9 @@ PHP response for Jelix frameworks, it allow you to use php code inside templates
 Usage
 --------------
 First put the phpResponse class in your app responses directory '/responses/' like that '/responses/phpResponse.class.php'
-Declare second the response in your app config file ' /var/config/mainconfig.ini.php' or in the entrypoint configuration file 'config/index/config.ini.php'
+
+Second declare the response in your app config file ' /var/config/mainconfig.ini.php' or in the entrypoint configuration file 'config/index/config.ini.php'
+
 For Example :
 
 ```php
