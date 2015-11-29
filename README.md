@@ -18,9 +18,8 @@ html=myHtmlResponse
 ...
 php=phpResponse
 ```
-Create template in your module templates directory '/modules/your_module_name/templates/mytemplate.php' with the '.php' extension
+Use phpResponse in your controller
 
-use phpResponse in your controller
 ```php
 <?php
 
@@ -35,6 +34,23 @@ class defaultCtrl extends jController {
     
 }
 ```
+Use php response in templates
+
+Create template in your module templates directory '/modules/your_module_name/templates/mytemplate.php' with the '.php' extension
+```php
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Mou kwaba phpResponse</title>
+    </head>
+    <body>
+        <?php echo $this->salut;?>
+    </body>
+</html>
+```
+
 Changelog
 --------------
 0.1 put in github
